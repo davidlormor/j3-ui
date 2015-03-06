@@ -1,6 +1,8 @@
-# J3-ui
+# J3 UI - A UI library for Ember
 
-This README outlines the details of collaborating on this Ember addon.
+## v0.0.1
+
+This library is under __HEAVY__ development and is not ready for production use.
 
 ## Installation
 
