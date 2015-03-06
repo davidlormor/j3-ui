@@ -1,0 +1,7 @@
+{{#each links as |link|}}
+  {{#if link.params}}
+    {{link-to link.label link.route link.params}}
+  {{else}}
+    {{link-to link.label link.route}}
+  {{/if}}
+{{/each}}

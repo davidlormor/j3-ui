@@ -1,3 +1,10 @@
-<h2 id="title">Welcome to Ember.js</h2>
-
-{{outlet}}
+{{#j3-header}}
+  {{link-to "J3 UI" "application" id="title" tagName="h1"}}
+{{/j3-header}}
+{{#j3-content}}
+  {{j3-sidebar links=leftSidebarLinks}}
+  {{outlet}}
+{{/j3-content}}
+{{#j3-footer}}
+  J3 UI by @davidlormor
+{{/j3-footer}}
